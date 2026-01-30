@@ -1,0 +1,7 @@
+name = "trmnl-cf-ip"
+main = "worker.js"
+compatibility_date = "2026-01-30"
+
+[[kv_namespaces]]
+binding = "IP_STORE"
+id = "eca9c7df7e5b49bbb2d24b8c4a47ea9c"
