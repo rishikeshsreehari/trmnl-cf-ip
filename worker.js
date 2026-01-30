@@ -31,7 +31,7 @@ export default {
     }
 
     // /ips
-    if (url.pathname === "/ips") {
+    if (url.pathname === "/" || url.pathname === "/ips") {
       const trmnl = await getTrmnlIPs(env);
       const named = await getNamedIPs(env);
 
