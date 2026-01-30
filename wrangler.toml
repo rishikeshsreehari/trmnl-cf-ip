@@ -4,4 +4,8 @@ compatibility_date = "2026-01-30"
 
 [[kv_namespaces]]
 binding = "IP_STORE"
-id = "eca9c7df7e5b49bbb2d24b8c4a47ea9c"
+id = "e402ff03be724d09bd52f0ab61acc295"
+
+[[routes]]
+pattern = "ip.t.r1l.in"
+custom_domain = true
